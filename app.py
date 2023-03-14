@@ -5,6 +5,7 @@ import random
 import string  # to process standard python strings
 import warnings
 
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
