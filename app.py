@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 def ask_question(question):
-    openai.api_key = "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"
+    openai.api_key = "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"
     response = openai.Completion.create(
     model="text-davinci-003",
     prompt="act as a lawyer specialist on the ESMA guidelines, your answer should be only related to this regulation, you are prohibited to talk about any other subject. Here is my question: " + question,
